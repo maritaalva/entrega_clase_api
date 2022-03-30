@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de usuarios # mockaroo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css
+    ">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="app/main.js"></script>
+</head>
+
+<body>
+
+
+    <h1>☆*: .｡.Lista de usuarios.｡.:*☆</h1>
+    <div id="test-list">
+        <!-- <div class="filter-bar">
+            
+            <label for="search">Filtrar</label>
+            <input type="text" class="fuzzy-search" id="search" name="search"/>
+            <button class="sort" data-sort="name">
+                Nombre <span class="mdi mdi-sort-ascending"></span>
+            </button>
+            <button class="sort" data-sort="surname">
+                Apellido <span class="mdi mdi-sort-ascending"></span>
+            </button>
+        </div> -->
+        <input type="text" id="buscadorUsuario" name="search" placeholder="Introduce el número de usuario"/>
+        <button id="buscadorBtn"><img src="assets/search.png" style="height:60%;"></svg>
+        </button>
+        <ul id="usuarios" class="list"></ul>
+        <button id="pag1">1</button>
+        <button id="pag2">2</button>
+    </div>
+
+</body>
+
+</html>
